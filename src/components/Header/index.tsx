@@ -53,7 +53,7 @@ const Header = () => {
             <div className="w-96 max-w-full  xl:mr-12">
               <Link
                 href="/"
-                className={`header-logo flex row w-full ${
+                className={`mx-2 header-logo flex row w-full ${
                   sticky ? "py-5 lg:py-2" : "py-4"
                 } `}
               >

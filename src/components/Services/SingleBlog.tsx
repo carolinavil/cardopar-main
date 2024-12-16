@@ -67,13 +67,13 @@ const SingleBlog = ({ blogs }: { blogs: Blog[] }) => {
               <div className="flex justify-between items-center">
                 <button
                   onClick={handlePrevBlog}
-                  className="p-2 text-white bg-primary rounded-full shadow hover:bg-opacity-90"
+                  className="px-3 p-2 text-white bg-primary rounded-full shadow hover:bg-opacity-90"
                 >
                   ←
                 </button>
 
                 {/* Exibe apenas um botão de blog por vez */}
-                <div className="flex flex-col items-center">
+                <div className="flex flex-col items-center ">
                   <button
                     onClick={() => handleButtonClick(selectedBlog.id)}
                     className={`py-1 rounded-lg font-semibold text-center my-2 text-[22px] flex items-center ${
@@ -96,7 +96,7 @@ const SingleBlog = ({ blogs }: { blogs: Blog[] }) => {
 
                 <button
                   onClick={handleNextBlog}
-                  className="p-2 text-white bg-primary rounded-full shadow hover:bg-opacity-90"
+                  className="p-2 px-3 text-white bg-primary rounded-full shadow hover:bg-opacity-90"
                 >
                   →
                 </button>

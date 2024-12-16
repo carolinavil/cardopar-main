@@ -31,7 +31,7 @@ const Hero = () => {
         <div className="container flex justify-start">
           <div className="-mx-4 flex flex-wrap">
             <div className="w-full px-4">
-              <div className="mx-auto max-w-[600px] text-left">
+              <div className="mx-auto max-w-[600px] h-[60vh] sm:h-[100%] text-left">
                 <h1 className="mb-5 text-3xl font-bold leading-tight text-white dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
                   Potencialize sua infraestrutura com soluções inteligentes para o futuro.
                 </h1>

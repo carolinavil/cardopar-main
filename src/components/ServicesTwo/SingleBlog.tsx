@@ -74,7 +74,7 @@ const SingleBlog = ({ blogs }: { blogs: Blog[] }) => {
           <div className="flex items-center justify-between">
             <button
               onClick={handlePrevBlog}
-              className="p-2 text-white bg-primary rounded-full shadow hover:bg-opacity-90"
+              className="p-2 px-3 text-white bg-primary rounded-full shadow hover:bg-opacity-90"
             >
               ←
             </button>
@@ -87,7 +87,7 @@ const SingleBlog = ({ blogs }: { blogs: Blog[] }) => {
                   <button
                     key={blog.id}
                     onClick={() => handleButtonClick(blog.id)}
-                    className={`px-4 py-3.5 rounded-3xl font-semibold text-left my-2 text-[20px] mx-10 ${
+                    className={`px-4 py-3.5 rounded-3xl font-semibold text-left my-2 text-[20px] mx-5 ${
                       selectedBlogId === blog.id
                         ? "bg-primary text-white"
                         : "bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300"
@@ -100,7 +100,7 @@ const SingleBlog = ({ blogs }: { blogs: Blog[] }) => {
 
             <button
               onClick={handleNextBlog}
-              className="p-2 text-white bg-primary rounded-full shadow hover:bg-opacity-90"
+              className="p-2 px-3 text-white bg-primary rounded-full shadow hover:bg-opacity-90"
             >
               →
             </button>
@@ -167,7 +167,7 @@ className=" object-cover rounded-lg "/>
         <div className="flex items-center justify-between">
           <button
             onClick={handlePrevService}
-            className="p-2 text-white bg-primary rounded-full shadow hover:bg-opacity-90"
+            className="p-2 px-3 text-white bg-primary rounded-full shadow hover:bg-opacity-90"
           >
             ←
           </button>
@@ -193,7 +193,7 @@ className=" object-cover rounded-lg "/>
 
           <button
             onClick={handleNextService}
-            className="p-2 text-white bg-primary rounded-full shadow hover:bg-opacity-90"
+            className="p-2 px-3 text-white bg-primary rounded-full shadow hover:bg-opacity-90"
           >
             →
           </button>

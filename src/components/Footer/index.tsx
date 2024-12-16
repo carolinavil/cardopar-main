@@ -8,14 +8,14 @@ const Footer = () => {
      <footer className="relative z-10 bg-primary pt-16 dark:bg-gray-dark md:pt-20 lg:pt-24">
         <div className="container">
           <div className="-mx-4 flex flex-wrap">
-            <div className="w-full px-4 md:w-1/2 lg:w-4/12 xl:w-4/12">
+            <div className="w-full px-4 md:w-1/2 lg:w-4/12 xl:w-4/12 ">
               <div className="mb-12 max-w-[360px] lg:mb-16">
                 <Link href="/" className="mb-8 ">
                   <Image
                     src="/images/logo/logo-header.svg"
                     alt="logo"
                     className="w-full dark:hidden"
-                    width={100}
+                    width={170}
                     height={30}
                   />
                   <Image
