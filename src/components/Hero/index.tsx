@@ -31,11 +31,11 @@ const Hero = () => {
         <div className="container flex justify-start">
           <div className="-mx-4 flex flex-wrap">
             <div className="w-full px-4">
-              <div className="mx-auto max-w-[600px] h-[60vh] sm:h-[100%] text-left">
+              <div className="text-left mx-auto max-w-[600px] h-[60vh] sm:h-[100%] ">
                 <h1 className="mb-5 text-3xl font-bold leading-tight text-white dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
                   Potencialize sua infraestrutura com soluções inteligentes para o futuro.
                 </h1>
-                <div className="flex flex-col items-center justify-start space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
+                <div className="flex flex-col items-start justify-start space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
                   <Link
                     href="https://wa.me/cardopar"
                     target="_blank"
