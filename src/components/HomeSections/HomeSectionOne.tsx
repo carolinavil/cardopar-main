@@ -35,8 +35,8 @@ const AboutSectionOne = () => {
     <section id="about" className="pt-16 md:pt-20 lg:pt-28 bg-gray-100">
       <div className="container mx-auto px-4">
         <SectionTitle
-           title="Simple and Affordable Pricing"
-           paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+           title="Nossos diferenciais"
+           paragraph="Desenvolvemos soluções inovadoras, focadas em resultados. Nossa abordagem se sustenta em três pilares principais: inovação, especialização e compromisso. Juntos, eles guiam cada etapa do nosso trabalho para garantir o seu sucesso."
            center
            width="665px"
         />

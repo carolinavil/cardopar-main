@@ -49,7 +49,7 @@ const Header = () => {
         }`}
       >
         <div className="container">
-          <div className="relative -mx-4  flex items-center justify-between">
+          <div className="relative -mx-4  flex items-center justify-around">
             <div className="w-96 max-w-full  xl:mr-12">
               <Link
                 href="/"
@@ -60,16 +60,16 @@ const Header = () => {
                 <Image
                   src="/images/logo/logo-header.svg"
                   alt="logo"
-                  width={150}
-                  height={30}
+                  width={100}
+                  height={10}
                   className="w-full dark:hidden"
                 />                
                 {
                   <Image
                     src="/images/logo/logo.svg"
                     alt="logo"
-                    width={150}
-                    height={30}
+                    width={100}
+                    height={10}
                     className="hidden w-full dark:block" 
                   />
                 }
@@ -84,17 +84,17 @@ const Header = () => {
                   className="absolute right-4 top-1/2 block translate-y-[-50%] rounded-lg px-3 py-[6px] ring-primary focus:ring-2 lg:hidden"
                 >
                   <span
-                    className={`relative my-1.5 block h-0.5 w-[30px] bg-black transition-all duration-300 dark:bg-primary ${
+                    className={`relative my-1.5 block h-0.5 w-[30px] bg-white transition-all duration-300 dark:bg-primary ${
                       navbarOpen ? " top-[7px] rotate-45" : " "
                     }`}
                   />
                   <span
-                    className={`relative my-1.5 block h-0.5 w-[30px] bg-black transition-all duration-300 dark:bg-primary ${
+                    className={`relative my-1.5 block h-0.5 w-[30px] bg-white transition-all duration-300 dark:bg-primary ${
                       navbarOpen ? "opacity-0 " : " "
                     }`}
                   />
                   <span
-                    className={`relative my-1.5 block h-0.5 w-[30px] bg-black transition-all duration-300 dark:bg-primary ${
+                    className={`relative my-1.5 block h-0.5 w-[30px] bg-white transition-all duration-300 dark:bg-primary ${
                       navbarOpen ? " top-[-8px] -rotate-45" : " "
                     }`}
                   />
@@ -161,26 +161,18 @@ const Header = () => {
                   </ul>
                 </nav>
               </div>
-              <div className="flex items-center justify-end pr-16 lg:pr-0">
-                {/* <Link
-                  href="/signin"
-                  className="hidden px-7 py-3 text-base font-medium text-dark hover:opacity-70 dark:text-primary md:block"
-                >
-                  Sign In
-                </Link> */}
-                <Link
-                  href=""
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="ease-in-up shadow-btn hover:shadow-btn-hover hidden rounded-sm bg-primary px-8 py-3 text-base font-medium text-primary transition duration-300 hover:bg-opacity-90 md:block md:px-9 lg:px-6 xl:px-9"
-                  style={{ borderRadius: 25 }}
-                >
-                  ABRA SUA CONTA
-                </Link>
-                <div>
-                  {/* <ThemeToggler /> */}
-                </div>
-              </div>
+              <div className="hidden lg:flex items-center justify-end pr-16 lg:pr-0">
+  <Link
+    href="https://wa.me/cardopar"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="inline-block rounded-3xl bg-orange px-8 py-2 text-1xl font-semibold text-white duration-300 ease-in-out hover:bg-black/90 dark:bg-white/10 dark:text-white dark:hover:bg-white/5"
+    style={{ borderRadius: 25 }}
+  >
+    ABRA SUA CONTA
+  </Link>
+</div>
+
             </div>
           </div>
           {/* <div><TradingViewWidget /></div> */}

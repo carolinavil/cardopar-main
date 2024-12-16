@@ -60,7 +60,9 @@ module.exports = {
         },
     
       },
+      
  backgroundImage: {
+  'mobile-gradient': 'linear-gradient(to right, #20195F, #3073b1)',
         'custom-gradient': 'linear-gradient(to right, #edf5ff, #edf5ff, #caecff)',
         'custom-gradient-banner': 'linear-gradient(to right, #20195F, #1e185adf, #1a7df57c)',
       },

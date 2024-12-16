@@ -5,60 +5,46 @@ import SingleTestimonial from "./SingleTestimonial";
 const testimonialData: Testimonial[] = [
   {
     id: 1,
-    name: "Musharof Chy",
-    designation: "Founder @TailGrids",
-    content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+    name: "Daniel Igor",
+    designation: "Cliente no Workana",
+    content: "Excelente profissional, ótima comunicação, entrega o projeto com muita qualidade.",
     image: "/images/testimonials/workana.svg",
     star: 5,
   },
-
   {
     id: 2,
-    name: "Devid Weilium",
-    designation: "Founder @UIdeck",
-    content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
-      image: "/images/testimonials/workana.svg",
+    name: "Jeam Pierre Kuhl",
+    designation: "Cliente no Workana",
+    content: "Simplesmente um baita profissional. Ele sabe o que está fazendo e é muito rápido, prestativo e competente. RECOMENDO 100%.",
+    image: "/images/testimonials/workana.svg",
     star: 5,
   },
   {
     id: 3,
-    name: "Lethium Frenci",
-    designation: "Founder @Lineicons",
-    content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
-      image: "/images/testimonials/workana.svg",
+    name: "Arthur Paiva",
+    designation: "Cliente no Workana",
+    content: "É aquela famosa história do mecânico que sabe qual parafuso apertar. Muito rápido, prático e eficiente.",
+    image: "/images/testimonials/workana.svg",
     star: 5,
   },
   {
     id: 4,
-    name: "Musharof Chy",
-    designation: "Founder @TailGrids",
-    content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
-      image: "/images/testimonials/workana.svg",
+    name: "Guilherme Engel",
+    designation: "Cliente no Workana",
+    content: "Próatividade e senso de urgência do prestador de serviço foi crucial para o bom sentimento sobre o trabalho além, claro, da entrega. Excelente, faremos novos negócios.",
+    image: "/images/testimonials/workana.svg",
     star: 5,
   },
   {
     id: 5,
-    name: "Musharof Chy",
-    designation: "Founder @TailGrids",
-    content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
-      image: "/images/testimonials/workana.svg",
-    star: 5,
-  },
-  {
-    id: 6,
-    name: "Musharof Chy",
-    designation: "Founder @TailGrids",
-    content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
-      image: "/images/testimonials/workana.svg",
+    name: "Rui de Paula",
+    designation: "Cliente no Workana",
+    content: "Profissional muito capaz, propõe soluções, cumpre com o que promete.",
+    image: "/images/testimonials/workana.svg",
     star: 5,
   },
 ];
+
 
 const Testimonials = () => {
   return (

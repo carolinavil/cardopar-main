@@ -10,8 +10,8 @@ import Testimonials from "@/components/Testimonials";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Route Investimentos",
-  description: "Os melhores assessores cuidando dos seus investimentos.",
+  title: "Cardopar",
+
   // other metadata
 };
 
