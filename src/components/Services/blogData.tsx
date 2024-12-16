@@ -1,75 +1,36 @@
+
+
+import { useState } from "react";
 import { Blog } from "@/types/blog";
 
 const blogData: Blog[] = [
   {
     id: 1,
-    title: "Clássico",
+    title: "Encontre o serviço desejado",
     paragraph:
-      "Investimentos de até R$ 300 mil. Relacionamento passivo com a equipe de assessoria da Router Investimentos e exposição à plataforma de produtos e serviços Safra Invest.",
-    image: "/images/blog/blog-01.jpg",
-    author: {
-      name: "Samuyl Joshi",
-      image: "/images/blog/author-01.png",
-      designation: "Graphic Designer",
-    },
-    tags: ["Clássico"],
-    publishDate: "2025",
+      "Explore os diferentes serviços oferecidos pela Cardopar, escolhendo o que mais se adequa às necessidades do seu negócio.",
+    image: "/images/blog/passo1.webp",
   },
   {
     id: 2,
-    title: "Exclusivo",
+    title: "Fale com nossa equipe e solicite seu orçamento",
     paragraph:
-      "Investimentos entre R$ 1 e R$ 3 milhões. Relacionamento exclusivo e acompanhamento constante com um assessor de investimentos especializado e áreas de suporte.",
-    image: "/images/blog/blog-05.jpg",
-    author: {
-      name: "Musharof Chy",
-      image: "/images/blog/author-02.png",
-      designation: "Content Writer",
-    },
-    tags: ["computer"],
-    publishDate: "2025",
+      "Após encontrar o serviço desejado, entre em contato diretamente com a equipe, tire dúvidas se necessário e solicite um orçamento personalizado.",
+    image: "/images/blog/passo2.webp"
   },
+ 
   {
     id: 3,
-    title: "Alta Renda",
+    title: "Finalize o atendimento",
     paragraph:
-      "Investimentos entre R$ 3 e R$ 10 milhões. Relacionamento próximo e ativo com um assessor de investimentos especializado e exposição à áreas satélites.",
-    image: "/images/blog/blog-02.jpg",
-    author: {
-      name: "Lethium Deo",
-      image: "/images/blog/author-03.png",
-      designation: "Graphic Designer",
-    },
-    tags: ["design"],
-    publishDate: "2025",
+      "Tudo pronto! Após a aprovação do orçamento e a conclusão de todas as etapas do atendimento, daremos início à realização do seu projeto com todo o cuidado e dedicação que ele merece.",
+    image: "/images/blog/passo3.webp",
   },
-  {
-    id: 4,
-    title: "Private",
-    paragraph:
-      "Investimentos acima de R$ 10 milhões. Equipe altamente qualificada, soluções sob medida e relatórios diferenciados.",
-    image: "/images/blog/blog-04.jpg",
-    author: {
-      name: "Lethium Deo",
-      image: "/images/blog/author-03.png",
-      designation: "Graphic Designer",
-    },
-    tags: ["design"],
-    publishDate: "2025",
-  },
-  {
-    id: 5,
-    title: "Corporate",
-    paragraph:
-      "Soluções personalizadas criadas através de profissionais especializados em atender as necessidades da empresa.",
-    image: "/images/blog/blog-06.jpg",
-    author: {
-      name: "Lethium Deo",
-      image: "/images/blog/author-03.png",
-      designation: "Graphic Designer",
-    },
-    tags: ["design"],
-    publishDate: "2025",
-  }
+ 
+ 
 ];
+
+
+
+
 export default blogData;

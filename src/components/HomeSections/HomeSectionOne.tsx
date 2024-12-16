@@ -8,70 +8,76 @@ const checkIcon = (
 );
 
 const AboutSectionOne = () => {
-  const List = ({ text }) => (
-    <p className="mb-5 flex items-center text-lg font-medium text-body-color">
-      <span className="mr-4 flex h-[30px] w-[30px] items-center justify-center rounded-md bg-primary bg-opacity-10 text-primary">
-        {checkIcon}
-      </span>
-      {text}
-    </p>
+  const Differential = ({ title, iconSrc, items }) => (
+    <div className="flex flex-col items-start p-4    ">
+      <div className="flex items-center justify-center bg-[#1d69b54a] w-full mb-4   p-2 rounded-full">
+        <Image
+          src={iconSrc}
+          alt={title}
+          width={40}
+          height={40}
+          className="mr-3 bg-white p-1 rounded-full border-2 border-[#1D69B5]"
+        />
+        <h3 className="text-lg font-bold text-[#1D69B5] ">{title}</h3>
+      </div>
+      <ul className="space-y-5 mt-7">
+        {items.map((item, index) => (
+          <li key={index} className="flex items-center">
+            <span className="mr-2 text-[#008000]">{checkIcon}</span>
+            <p className="text-gray-600 ">{item}</p>
+          </li>
+        ))}
+      </ul>
+    </div>
   );
 
   return (
-    <section id="about" className="pt-16 md:pt-20 lg:pt-28">
-      <div className="container">
-        <div className="border-b border-body-color/[.15] pb-16 dark:border-white/[.15] md:pb-20 lg:pb-28">
-          <div className="-mx-4 flex flex-wrap items-center">
-            <div className="w-full px-4 lg:w-1/2">
-              <SectionTitle
-                title="Como atuamos"
-                paragraph="Acreditamos que a integridade é a chave para construir relacionamentos duradouros com nossos clientes. Mantemos os mais altos padrões éticos em todas as nossas operações. "
-                mb="24px"
-              />
-
-              <SectionTitle
-                title=""
-                paragraph="Estamos constantemente buscando maneiras inovadoras de melhorar nossos serviços e soluções de investimento para nossos clientes internos e externos. A inovação, preparo intelectual e proximidade no dia a dia, é o que nos permite continuar a oferecer as melhores soluções para nossos clientes."
-                mb="44px"
-              />
-
-              {/* <div
-                className="mb-12 max-w-[570px] lg:mb-0"
-                data-wow-delay=".15s"
-              >
-                <div className="mx-[-12px] flex flex-wrap">
-                  <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Premium quality" />
-                    <List text="Tailwind CSS" />
-                    <List text="Use for lifetime" />
-                  </div>
-
-                  <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Next.js" />
-                    <List text="Rich documentation" />
-                    <List text="Developer friendly" />
-                  </div>
-                </div>
-              </div> */}
-            </div>
-
-            <div className="w-full px-4 lg:w-1/2">
-              <div className="relative mx-auto aspect-[25/24] max-w-[400px] lg:mr-0">
-                <Image
-                  src="/images/about/cellman.png"
-                  alt="verbum-image"
-                  fill
-                  className="mx-auto max-w-full drop-shadow-three dark:hidden dark:drop-shadow-none lg:mr-0"
-                />
-                <Image
-                  src="/images/about/about-image-dark.svg"
-                  alt="about-image"
-                  fill
-                  className="mx-auto hidden max-w-full drop-shadow-three dark:block dark:drop-shadow-none lg:mr-0"
-                />
-              </div>
-            </div>
-          </div>
+    <section id="about" className="pt-16 md:pt-20 lg:pt-28 bg-gray-100">
+      <div className="container mx-auto px-4">
+        <SectionTitle
+           title="Simple and Affordable Pricing"
+           paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+           center
+           width="665px"
+        />
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-10">
+          <Differential
+            title="Inovação Tecnológica"
+            iconSrc="/images/home/d1.webp"
+            items={[
+              "Desenvolvimento ágil com tecnologias de ponta",
+              "Integração contínua e entrega rápida",
+              "Utilização de metodologias ágeis para resultados eficazes",
+            ]}
+          />
+        
+        <Differential
+            title="Compromisso com a Qualidade"
+          iconSrc="/images/home/d2.webp"
+            items={[
+              "Atenção aos detalhes em cada etapa do processo",
+              "Garantia de entregas dentro dos padrões de excelência",
+              "Feedback constante para melhoria contínua",
+            ]}
+          />
+          <Differential
+            title="Equipe Especializada"
+          iconSrc="/images/home/d3.webp"
+            items={[
+              "Profissionais experientes e qualificados",
+              "Capacidade de adaptação às necessidades do cliente",
+              "Formação contínua para acompanhar as tendências do mercado",
+            ]}
+          />
+      
+        </div>
+        <div className="flex justify-center mt-10 pb-20">
+          <a
+            href="https://wa.me/cardopar"
+            className="px-6 py-3 text-white bg-primary rounded-md shadow hover:bg-opacity-90"
+          >
+            Saiba mais
+          </a>
         </div>
       </div>
     </section>

@@ -9,7 +9,13 @@ export type Blog = {
   title: string;
   paragraph: string;
   image: string;
-  author: Author;
-  tags: string[];
-  publishDate: string;
+
+  
+};
+
+export type Other = {
+  id: number;
+  title: string;
+  description: string;
+
 };

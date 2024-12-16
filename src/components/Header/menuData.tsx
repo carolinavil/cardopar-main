@@ -4,46 +4,34 @@ const menuData: Menu[] = [
   {
     id: 1,
     title: "Sobre nós",
+    path: "#about",
     newTab: false,
-    submenu: [
-      {
-        id: 11,
-        title: "Compliance",
-        path: "/compliance", /* https://verbumcapital.com */
-        newTab: false,
-      },
-      {
-        id: 12,
-        title: "Equipe",
-        path: "/equipe",
-        newTab: false,
-      },
-      {
-        id: 13,
-        title: "Onde estamos",
-        path: "/onde-estamos",
-        newTab: false,
-      },
-    ],
   },
   {
     id: 2,
-    title: "Conteúdo",
-    path: "https://blog.verbumcapital.com/",
+    title: "Atendimento",
+    path: "#atendimento",
     newTab: false,
   },
   {
     id: 3,
-    title: "Investimentos",
-    path: "/investimentos",
+    title: "Diferenciais",
+    path: "#diferenciais",
     newTab: false,
   },
   {
     id: 4,
-    title: "Contato",
-    path: "/contato",
+    title: "Serviços",
+    path: "#servicos",
     newTab: false,
   },
+  {
+    id: 5,
+    title: "Contato",
+    path: "#contato",
+    newTab: false,
+  },
+
   /* {
     id: 3,
     title: "Pages",

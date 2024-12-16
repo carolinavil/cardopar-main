@@ -41,7 +41,8 @@ module.exports = {
         black: "#121723",
         orange:"#cb6a08",
         dark: "#1D2430",
-        primary: "#fa8b1e",
+        primary: "#241d65",
+        secundary:  "#195a97",
         yellow: "#FBB040",
         "bg-color-dark": "#171C28",
         "body-color": {
@@ -57,8 +58,12 @@ module.exports = {
           dark: "#CB6A0859",
           light: "#CB6A0859",
         },
+    
       },
-
+ backgroundImage: {
+        'custom-gradient': 'linear-gradient(to right, #edf5ff, #edf5ff, #caecff)',
+        'custom-gradient-banner': 'linear-gradient(to right, #20195F, #1e185adf, #1a7df57c)',
+      },
       boxShadow: {
         signUp: "0px 5px 10px rgba(4, 10, 34, 0.2)",
         one: "0px 2px 3px rgba(7, 7, 77, 0.05)",

@@ -1,29 +1,22 @@
 import SectionTitle from "../Common/SectionTitle";
 import SingleBlog from "./SingleBlog";
 import blogData from "./blogData";
-
+import { IconArrowRight } from '@tabler/icons-react';
 const Blog = () => {
   return (
     <section
-      id="blog"
-      className="bg-gray-light white:bg-bg-color-dark py-16 md:py-20 lg:py-28"
+      id="diferenciais"
+      className=" bg-custom-gradient py-16 md:py-20 lg:py-10"
     >
-      <div className="container">
-        <SectionTitle
-          title="Nossos segmentos"
-          paragraph=""
-          center
-        
-        />
 
-        <div className="grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-2 md:gap-x-6 lg:gap-x-8 xl:grid-cols-3">
-          {blogData.map((blog) => (
-            <div key={blog.id} className="w-full">
-              <SingleBlog blog={blog} />
-            </div>
-          ))}
-        </div>
+{/* <div className="flex justify-around"  > */}
+    <div className="max-w-[90vw] mx-auto"  >
+      <SingleBlog blogs={blogData} />
       </div>
+      {/* <a href="" target="_blank" rel="noopener noreferrer" className="text-base max-w-[170px] flex items-center justify-center font-medium leading-relaxed bg-primary text-white py-3 px-4 sm:px-8 rounded-xl sm:text-lg sm:leading-relaxed hover:bg-blue-900 hover:justify-between">
+                  <span className="mr-2">Faer orçamento</span>
+                  <IconArrowRight />
+                </a> */}
     </section>
   );
 };

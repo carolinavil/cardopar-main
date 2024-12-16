@@ -5,14 +5,14 @@ import Link from "next/link";
 const Footer = () => {
   return (
     <>
-     <footer className="relative z-10 bg-white pt-16 dark:bg-gray-dark md:pt-20 lg:pt-24">
+     <footer className="relative z-10 bg-primary pt-16 dark:bg-gray-dark md:pt-20 lg:pt-24">
         <div className="container">
           <div className="-mx-4 flex flex-wrap">
             <div className="w-full px-4 md:w-1/2 lg:w-4/12 xl:w-4/12">
               <div className="mb-12 max-w-[360px] lg:mb-16">
                 <Link href="/" className="mb-8 inline-block">
                   <Image
-                    src="/images/logo/logo-2.svg"
+                    src="/images/logo/logo-header.svg"
                     alt="logo"
                     className="w-full dark:hidden"
                     width={140}
@@ -118,7 +118,7 @@ const Footer = () => {
 
             <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-2/12">
               <div className="mb-12 lg:mb-16">
-                <h2 className="mb-3 text-xl font-bold text-black dark:text-white">
+                <h2 className="mb-3 text-xl font-bold text-white dark:text-white">
                   Endereço
                 </h2>
                 <ul>
@@ -145,7 +145,7 @@ const Footer = () => {
 
             <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-3/12">
               <div className="mb-12 lg:mb-16">
-                <h2 className="mb-3 text-xl font-bold text-black dark:text-white">
+                <h2 className="mb-3 text-xl font-bold text-white dark:text-white">
                   E-mail
                 </h2>
                 <ul>
@@ -158,7 +158,7 @@ const Footer = () => {
                     </a>
                   </li>
                 </ul>
-                <h2 className="mb-3 text-xl font-bold text-black dark:text-white">
+                <h2 className="mb-3 text-xl font-bold text-white dark:text-white">
                   Telefone
                 </h2>
                 <ul>
@@ -176,7 +176,7 @@ const Footer = () => {
 
             <div className="w-full px-4 md:w-1/2 lg:w-4/12 xl:w-3/12">
               <div className="mb-12 lg:mb-16">
-                <h2 className="mb-3 text-xl font-bold text-black dark:text-white">
+                <h2 className="mb-3 text-xl font-bold text-white dark:text-white">
                   Ouvidoria
                 </h2>
                 <ul>
@@ -212,7 +212,7 @@ const Footer = () => {
                 </ul>
               </div>
 
-              <h2 style={{ marginTop: '-50px' }} className="mb-30 text-xl font-bold text-black dark:text-white">
+              <h2 style={{ marginTop: '-50px' }} className="mb-30 text-xl font-bold text-white dark:text-white">
                 Horário de atendimento
               </h2>
               <ul>
@@ -229,32 +229,11 @@ const Footer = () => {
                 </li>
               </ul>
             </div>
-            <div className="h-px w-full bg-gradient-to-r from-transparent via-[#D2D8E183] to-transparent dark:via-[#959CB183]"></div>
-            <div className="px-6 pb-10 pt-10">
-              <p className="text-[8px]/4 sm:text-[9px]/4 text-left text-body-color">
-              A Router Investimentos LTDA., inscrita sob o CNPJ XXXXX é uma empresa de assessoria de investimento devidamente registrada na Comissão de Valores Mobiliários (CVM), na forma da Resolução CVM 178. Atuando no mercado financeiro como preposto do Banco Safra Invest S/A, o que pode ser verificado através do site da ANCORD (https://www.ancord.org.br/certificacao-e-credenciamento/) ou através do site da Necton Investimentos (https://www.safra.com.br/atendimento). 
-                <br /><br />
-                O Banco Safra Invest S/A é instituição financeira integrante do sistema de distribuição de títulos e valores mobiliários, atuando como intermediário das operações de seus clientes. Na forma da legislação da CVM, o assessor de investimento não pode administrar ou gerir o patrimônio de investidores, pois é um preposto do intermediário e depende da autorização prévia do cliente para realizar operações no mercado financeiro. Na realização de operações com derivativos, existe a possibilidade de significativas perdas patrimoniais, inclusive, superiores aos valores investidos. 
-                <br /><br />
-                A assessoria pode exercer outras atividades relacionadas ao mercado financeiro, de capitais, securitário e de previdência e capitalização, que podem ou não ser em parceria com o Safra Invest ou demais instituições, e que podem ou não ser realizadas pela mesma pessoa jurídica da assessoria. Especificamente quanto às atividades de gestão, consultoria e análise de valores mobiliários, estas podem vir a ser desempenhadas por empresas do grupo e nunca pela própria assessoria de investimentos, considerando que são atividades conflitantes e que exigem segregação. O investimento em ações é um investimento de risco e rentabilidade passada não é garantia de rentabilidade futura. Para reclamações, favor contatar a Ouvidoria do Banco Safra Invest S/A no telefone nº 0800-722-0048. Para acessar nossa lista de sócios, clique aqui: (https://www.safra.com.br/atendimento)
-              </p>
-            </div>
+          
           </div>
 
           <div className="h-px w-full bg-gradient-to-r from-transparent via-[#D2D8E183] to-transparent dark:via-[#959CB183]"></div>
-          <div className="py-8">
-            <p className="text-center text-sm text-body-color dark:text-white">
-              © 2024 Router Investimentos LTDA. Todos os direitos reservados.{" "}
-            </p>
-            <a
-              href="http://cyostech.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hover:text-primary flex justify-center text-center text-sm text-body-color dark:text-white"
-            >
-              Criado e monitorado por&nbsp;<b>Tyra pro</b>
-            </a>
-          </div>
+    
         </div>
         <div className="absolute right-0 top-14 z-[-1]">
           <svg

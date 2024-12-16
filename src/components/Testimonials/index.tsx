@@ -9,16 +9,17 @@ const testimonialData: Testimonial[] = [
     designation: "Founder @TailGrids",
     content:
       "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
-    image: "/images/testimonials/auth-01.png",
+    image: "/images/testimonials/workana.svg",
     star: 5,
   },
+
   {
     id: 2,
     name: "Devid Weilium",
     designation: "Founder @UIdeck",
     content:
       "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
-    image: "/images/testimonials/auth-02.png",
+      image: "/images/testimonials/workana.svg",
     star: 5,
   },
   {
@@ -27,20 +28,51 @@ const testimonialData: Testimonial[] = [
     designation: "Founder @Lineicons",
     content:
       "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
-    image: "/images/testimonials/auth-03.png",
+      image: "/images/testimonials/workana.svg",
+    star: 5,
+  },
+  {
+    id: 4,
+    name: "Musharof Chy",
+    designation: "Founder @TailGrids",
+    content:
+      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      image: "/images/testimonials/workana.svg",
+    star: 5,
+  },
+  {
+    id: 5,
+    name: "Musharof Chy",
+    designation: "Founder @TailGrids",
+    content:
+      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      image: "/images/testimonials/workana.svg",
+    star: 5,
+  },
+  {
+    id: 6,
+    name: "Musharof Chy",
+    designation: "Founder @TailGrids",
+    content:
+      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      image: "/images/testimonials/workana.svg",
     star: 5,
   },
 ];
 
 const Testimonials = () => {
   return (
-    <section className="dark:bg-bg-color-dark bg-gray-light relative z-10 py-16 md:py-20 lg:py-28">
+    <section id="atendimento" className=" relative z-10 py-16 md:py-20 lg:py-28">
       <div className="container">
-        <SectionTitle
-          title="What Our Users Says"
-          paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
-          center
-        />
+      <div className="mb-9">
+                <h3 className=" mb-3 text-3xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-4xl">
+                  Iniciando seu atendimento
+                </h3>
+                <p className=" mb-3  text-black dark:text-white sm:text-1 lg:text-xl xl:text-[16px] max-w-[600px]">
+                Comece seu atendimento conosco seguindo esses passos e conte com nossa equipe em cada etapa do processo.
+
+                </p>
+              </div> 
 
         <div className="grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-2 lg:grid-cols-3">
           {testimonialData.map((testimonial) => (
