@@ -9,7 +9,7 @@ const blogData: Blog[] = [
     id: 1,
     title: "Especialistas em Wordpress",
     paragraph:
-      "Investimentos de até R$ 300 mil. Relacionamento passivo com a equipe de assessoria da Router Investimentos e exposição à plataforma de produtos e serviços Safra Invest.",
+      "Implementamos medidas de segurança robustas para proteger seus dados e garantir sua privacidade absoluta na internet.",
     image: "/images/blog/wordpress.webp",
    
   
@@ -18,7 +18,7 @@ const blogData: Blog[] = [
     id: 2,
     title: "AWS, Azure e Google Cloud",
     paragraph:
-      "Investimentos de até R$ 300 mil. Relacionamento passivo com a equipe de assessoria da Router Investimentos e exposição à plataforma de produtos e serviços Safra Invest.",
+      "Oferecemos soluções em Google Cloud, Microsoft Azure e AWS, adaptando serviços às necessidades do cliente.",
     image: "/images/blog/cloud.webp",
  
   
@@ -28,7 +28,7 @@ const blogData: Blog[] = [
     id: 3,
     title: "Escalamento Automático",
     paragraph:
-      "Investimentos de até R$ 300 mil. Relacionamento passivo com a equipe de assessoria da Router Investimentos e exposição à plataforma de produtos e serviços Safra Invest.",
+      "Nossas soluções se ajustam automaticamente conforme a demanda aumenta ou diminui, garantindo eficiência e redução de custos à medida que você utiliza mais ou menos recursos.",
     image: "/images/blog/aws.webp",
 
   
@@ -41,40 +41,35 @@ const blogData: Blog[] = [
 const otherData: Other[] = [
   {
     id: 1,
-    title: "Planejamento Financeiro",
-    description: "Oferecemos soluções personalizadas para organizar suas finanças.",
+    title: "Serviços de Balanceamento de Carga",
+    description: "Distribuímos tráfego entre servidores, aumentando a disponibilidade e otimizando o desempenho dos serviços.",
     
   },
   {
     id: 2,
-    title: "Consultoria de Investimentos",
-    description: "Ajudamos você a encontrar os melhores investimentos.",
+    title: "Bancos de Dados e Clusterização",
+    description: "Gerenciamos clusters de bancos de dados, implementando soluções de alta disponibilidade e recuperação de desastres.",
     
   },
   {
     id: 3,
-    title: "Gestão de Patrimônio",
-    description: "Planeje e gerencie seu patrimônio com nossa equipe especializada.",
+    title: "Gerenciamento de Aplicações em Nuvem",
+    description: "Especializamo-nos na orquestração de contêineres com Kubernetes, facilitando desenvolvimentos ágeis e escaláveis.",
     
   },
   {
     id: 4,
-    title: "Gestão de Patrimônio",
-    description: "Planeje e gerencie seu patrimônio com nossa equipe especializada.",
+    title: "Elasticidade da Capacidade",
+    description: "Ajustamos recursos automaticamente, garantindo desempenho em tempo real durante altas cargas de acesso.",
     
   },
   {
     id: 5,
-    title: "Gestão de Patrimônio",
-    description: "Planeje e gerencie seu patrimônio com nossa equipe especializada.",
+    title: "Simulação de Ataques (Pentests)",
+    description: "Identificamos vulnerabilidades em sistemas, gerando relatórios detalhados com recomendações de segurança.",
     
   },
-  {
-    id: 6,
-    title: "Gestão de Patrimônio",
-    description: "Planeje e gerencie seu patrimônio com nossa equipe especializada.",
-    
-  },
+
 ];
 
 

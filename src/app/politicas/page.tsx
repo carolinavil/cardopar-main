@@ -4,7 +4,7 @@ import Breadcrumb from "@/components/Common/Breadcrumb";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Políticas | Router Investimentos ",
+  title: "Políticas | Cardopar ",
   description: "Conheça nossas políticas de privacidade",
   // other metadata
 };

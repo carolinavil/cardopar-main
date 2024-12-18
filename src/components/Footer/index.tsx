@@ -6,23 +6,23 @@ const Footer = () => {
   return (
     <>
      <footer className="relative z-10 bg-primary pt-16 dark:bg-gray-dark md:pt-20 lg:pt-24">
-        <div className="container">
+     <div className="container">
           <div className="-mx-4 flex flex-wrap">
-            <div className="w-full px-4 md:w-1/2 lg:w-4/12 xl:w-4/12 ">
+            <div className="w-full px-4 md:w-1/2 lg:w-4/12 xl:w-4/12">
               <div className="mb-12 max-w-[360px] lg:mb-16">
-                <Link href="/" className="mb-8 ">
+                <Link href="/" className="mb-8 inline-block">
                   <Image
                     src="/images/logo/logo-header.svg"
                     alt="logo"
                     className="w-full dark:hidden"
-                    width={170}
+                    width={140}
                     height={30}
                   />
                   <Image
                     src="/images/logo/logo.svg"
                     alt="logo"
                     className="hidden w-full dark:block"
-                    width={100}
+                    width={140}
                     height={30}
                   />
                 </Link>
@@ -30,97 +30,15 @@ const Footer = () => {
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Integer lobortis.
                 </p> */}
-
-           
               </div>
             </div>
 
-       
-
-            <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-3/12">
+            <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-2/12">
               <div className="mb-12 lg:mb-16">
                 <h2 className="mb-3 text-xl font-bold text-white dark:text-white">
-                  E-mail
+                  Funcionamento
                 </h2>
                 <ul>
-                  <li>
-                    <a
-                      href="mailto:contato@routeinvestimentos.com.br"
-                      className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
-                    >
-                      contato@routeinvestimentos.com.br
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-
-
-
-
-            <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-3/12">
-              <div className="mb-12 lg:mb-16  sm:mx-20">
-             
-                <h2 className="mb-3 text-xl font-bold text-white dark:text-white">
-                  Telefone
-                </h2>
-                <ul>
-                  <li>
-                    <a
-                      href="tel:1150260007"
-                      className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
-                    >
-                      (11) 5026-0007
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-
-
-{/* 
-            <div className="w-full px-4 md:w-1/2 lg:w-4/12 xl:w-3/12">
-              <div className="mb-12 lg:mb-16">
-                <h2 className="mb-3 text-xl font-bold text-white dark:text-white">
-                  Ouvidoria
-                </h2>
-                <ul>
-                  <li>
-                    <a
-                      href="tel:08007725755"
-                      className="mb-1 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
-                    >
-                     0800 772 5755
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href=" https://www.safra.com.br/atendimento"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
-                    >
-                      www.safra.com.br/atendimento
-                    </a>
-                  </li>
-
-                  <li>
-                    <Link
-                      href="/politicas"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
-                    >
-                      Política de Privacidade
-                    </Link>
-                  </li>
-                </ul>
-              </div>
-
-              <h2 style={{ marginTop: '-50px' }} className="mb-30 text-xl font-bold text-white dark:text-white">
-                Horário de atendimento
-              </h2>
-              <ul>
                 <li>
                   <a
 
@@ -132,13 +50,83 @@ const Footer = () => {
 
                   </a>
                 </li>
-              </ul>
-            </div> */}
-          
+                  {/* <li>
+                    <Link
+                      href="https://www.necton.com.br/seja-parceiro/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
+                    >
+                      Para acessar nossa lista de sócios clique aqui: SejaBTG
+                    </Link>
+                  </li> */}
+                </ul>
+              </div>
+            </div>
+
+            <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-3/12">
+              <div className="mb-12 lg:mb-16">
+                <h2 className="mb-3 text-xl font-bold text-white dark:text-white">
+                  E-mail
+                </h2>
+                <ul>
+                  <li>
+                    <a
+                      href="mailto:support@cardopar.com"
+                      className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
+                    >
+                      support@cardopar.com
+                    </a>
+                  </li>
+                </ul>
+                <h2 className="mb-3 text-xl font-bold text-white dark:text-white">
+                  Telefone
+                </h2>
+                <ul>
+                  <li>
+                    <a
+                      href="tel:12974020387"
+                      className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
+                    >
+                      +55 12 97402-0387
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div className="w-full px-4 md:w-1/2 lg:w-4/12 xl:w-3/12">
+              <div className="mb-12 lg:mb-16">
+                <ul>
+                  <li>
+                    <Link
+                      href="/politicas"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
+                    >
+                      Política de Privacidade
+                    </Link>
+                  </li>
+                
+               
+                </ul>
+              </div>
+
+            
+           
+            </div>
+            <div className="h-px w-full bg-gradient-to-r from-transparent via-[#D2D8E183] to-transparent dark:via-[#959CB183]"></div>
+         
           </div>
 
           <div className="h-px w-full bg-gradient-to-r from-transparent via-[#D2D8E183] to-transparent dark:via-[#959CB183]"></div>
-    
+          <div className="py-8">
+            <p className="text-center text-sm text-body-color dark:text-white">
+            Copyright ©2024 todos os direitos reservados | Cardopar
+            </p>
+       
+          </div>
         </div>
         <div className="absolute right-0 top-14 z-[-1]">
           <svg

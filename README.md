@@ -1,4 +1,3 @@
-# Router Investimentos
 
 ### Requisitos
 Node >=18
@@ -27,4 +26,4 @@ npm run build
 npm start
 ```
 
-.env já está inclusa no arquivo, conexão atual com o sanity também.
+
