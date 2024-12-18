@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 ### Requisitos
 Node >=18
@@ -25,5 +26,6 @@ npm run build
 ```bash
 npm start
 ```
+
 
 
