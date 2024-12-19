@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 ### Requisitos
 Node >=18
