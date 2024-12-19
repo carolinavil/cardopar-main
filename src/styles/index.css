@@ -5,13 +5,29 @@
 @tailwind utilities;
 
 @layer base {
-  h3,h1,a, button, h2, #servico{
-    font-family:  'Prometo Trial Regular', sans-serif;
+
+  h3,
+  h1,
+  a,
+  button,
+  h2,
+  #servico {
+    font-family: 'Prometo Trial Regular', sans-serif;
   }
 }
 
 @layer components {
-  input[type="checkbox"]:checked ~ label span svg {
+
+
+  .custom-slide {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    height: auto !important;
+  }
+
+
+  input[type="checkbox"]:checked~label span svg {
     @apply inline-flex;
   }
 
@@ -23,11 +39,18 @@
     @apply opacity-70;
   }
 
-  input#togglePlan:checked ~ .dot {
+  input#togglePlan:checked~.dot {
     @apply translate-x-full;
   }
 
-  input#checkboxLabel:checked ~ .box span {
+  input#checkboxLabel:checked~.box span {
     @apply opacity-100;
   }
+
+  .swiper-slide {
+    display: flex;
+    justify-content: center;
+  }
+
+
 }

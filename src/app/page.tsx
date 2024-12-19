@@ -6,6 +6,7 @@ import ScrollUp from "@/components/Common/ScrollUp";
 import Contact from "@/components/Contact";
 import Features from "@/components/Features";
 import Hero from "@/components/Hero";
+import CustomCarousel from "@/components/Header/TradingViewWidget";
 import Testimonials from "@/components/Testimonials";
 import { Metadata } from "next";
 // teste
@@ -21,6 +22,7 @@ export default function Home() {
     <>
       <ScrollUp />
       <Hero />
+    <CustomCarousel />
       {/* <Features /> */}
       {/* <Video /> */}
       <HomeSectionTwo />
