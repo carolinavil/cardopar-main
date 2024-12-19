@@ -11,7 +11,7 @@ const CustomCarousel: React.FC = () => {
   return (
     <div className="carousel-container bg-gray-100 pb-5">
       <div>
-        <h3 className="pt-10 text-[21px] font-bold text-gray-800 dark:text-white sm:text-2xl lg:text-xl xl:text-4xl text-center">
+        <h3 className="pt-10 pb-5 text-[21px] font-bold text-gray-800 dark:text-white sm:text-2xl lg:text-xl xl:text-4xl text-center">
           Confiam em nós
         </h3>
       </div>
@@ -68,7 +68,7 @@ const CustomCarousel: React.FC = () => {
           <Image
             src="/images/marcas/globo.svg"
             alt="Logo 5"
-            width={120}
+            width={90}
             height={30}
           />
         </SwiperSlide>
