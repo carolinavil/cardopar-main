@@ -178,11 +178,11 @@ className=" object-cover rounded-lg "/>
               .slice(currentServiceIndex, currentServiceIndex + (isMobile ? 1 : 3)) // Se for mobile, exibe 1 serviço de cada vez, caso contrário 3
               .map((service, index) => (
                 <div
-                  key={index}
-                  className={`w-full sm:w-[350px] h-[150px] flex flex-col items-start justify-center p-4 rounded-[15px] ${
-                    index % 2 === 0 ? "bg-primary" : "bg-secundary"
-                  }`}
-                >
+                key={index}
+                className={`w-full h-[177px] sm:w-[350px] sm:h-[150px] flex flex-col items-start justify-center p-4 rounded-[15px] ${
+                  index % 2 === 0 ? "bg-primary" : "bg-secundary"
+                }`}
+              >
                   <h4 className="text-lg font-semibold text-white dark:text-white">
                     {service.title}
                   </h4>

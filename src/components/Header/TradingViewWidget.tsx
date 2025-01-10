@@ -18,7 +18,7 @@ const CustomCarousel: React.FC = () => {
       <Swiper
         slidesPerView={5} // Número de imagens visíveis no desktop
         spaceBetween={20} // Espaçamento entre as imagens
-        autoplay={{ delay: 2500, disableOnInteraction: false }} // Ativando autoplay
+        autoplay={{ delay: 2500, disableOnInteraction: false }} 
         modules={[Autoplay, Navigation]}
         breakpoints={{
           320: {
@@ -103,12 +103,36 @@ const CustomCarousel: React.FC = () => {
             width={200}
             height={30}
           />
+           </SwiperSlide>
+               <SwiperSlide className="custom-slide">
+          <Image
+            src="/images/marcas/cbf.svg"
+            alt="Logo 5"
+            width={90}
+            height={30}
+          />
         </SwiperSlide>
         <SwiperSlide className="custom-slide">
           <Image
             src="/images/marcas/sicredi.svg"
             alt="Logo 5"
             width={250}
+            height={30}
+          />
+        </SwiperSlide>
+        <SwiperSlide className="custom-slide">
+          <Image
+            src="/images/marcas/safra.svg"
+            alt="Logo 5"
+            width={200}
+            height={30}
+          />
+        </SwiperSlide>
+        <SwiperSlide className="custom-slide">
+          <Image
+            src="/images/marcas/nissin.svg"
+            alt="Logo 5"
+            width={200}
             height={30}
           />
         </SwiperSlide>
